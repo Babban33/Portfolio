@@ -6,29 +6,21 @@ function mapCommunityData() {
 
     let communities = [
         {
-            "name": "Flutter Islamabad, Pakistan",
-            "role": "Community Lead",
-            "session": "April 2020 - Present",
-            "logo": "images/community/flutter-isb.png",
-            "link": "https://meetup.com/flutter-islamabad",
-            "details": "Flutter Islamabad, Pakistan - First ever flutter community to be officially registered at Flutter Network (Google). Hosted events, sessions, hands- on and workshops and trained hundred and thousands of developers."
+            "name": "IEEE CIS GHRCE, Nagpur",
+            "role": "EXECOM",
+            "session": "April 2022 - Present",
+            "logo": "images/community/ieee-cis.png",
+            "link": "https://ieee-cis-sbc.org/",
+            "details": "IEEE CIS SBC - GHRCE is a Student Branch Chapter of vibrant IEEE members with the sole mission of promoting Computational Intelligence technologies that are of social importance benefit to humankind. By conducting several unique workshops and events, we not only work for the betterment of society but also for individual development from learning new technical skills to developing leadership quality."
         },
         {
-            "name": "Google Developer Student Clubs",
-            "role": "GDSC Lead",
-            "session": "June 2020 - June 2021",
-            "logo": "images/community/dsc.png",
-            "link": "https://gdsc.community.dev/comsats-university-islamabad-campus/",
-            "details": "Google Developer Student Clubs - Trained hundreds of students about various technologies like flutter, tensorflow, Git and GitHub etc."
+            "name": "IEEE CS GHRCE, Nagpur",
+            "role": "EXECOM",
+            "session": "April 2021 - April 2022",
+            "logo": "images/community/ieee-cs.png",
+            "link": "https://ghrce.raisoni.net/ieee-computer-society",
+            "details": "The IEEE Computer Society (IEEE CS) is the premier source for information, inspiration, and collaboration in computer science and engineering. Connecting members worldwide, the IEEE Computer Society empowers the people who advance technology by delivering tools for individuals at all stages of their professional careers. IEEE CS's trusted resources include SWEBOK, continuous learning opportunities, a robust digital library, international conferences, peer-reviewed publications, and globally recognized standards."
         },
-        {
-            "name": "Microsoft Student Ambassador",
-            "role": "Student Ambassador",
-            "session": "Feb 2021 - Feb 2022",
-            "logo": "images/community/mlsa.png",
-            "link": "https://mlsa.pk/",
-            "details": "Microsoft Student Ambassador - Helped students in learning technologies like Python, Azure and GitHub for their projects in college and real-life. Learned team management, event management and helped other students to grow their career as student ambassador."
-        }
     ];
 
     for (var i = 0; i < communities.length; i++) {

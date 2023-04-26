@@ -6,20 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
 function mapContactDetails() {
     let contactInfo = [
         {
-            "icon": "fa fa-phone",
-            "label": "+92 311 1559877",
-            "link": "https://wa.me/923111559877"
-        },
-        {
             "icon": "fa fa-envelope",
-            "label": "hamza.6.shakeel@gmail.com",
-            "link": "mailto:hamza.6.shakeel@gmail.com"
+            "label": "chaitanyawankhede705@gmail.com",
+            "link": "mailto:chaitanyawankhede705@gmail.com"
         },
-        {
-            "icon": "images/svgs/upwork.svg",
-            "label": "Hire Me",
-            "link": "https://www.upwork.com/freelancers/~0197b0f6aaeba9675f"
-        }
     ];
 
     for (var i = 0; i < contactInfo.length; i++) {

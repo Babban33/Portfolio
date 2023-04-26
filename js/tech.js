@@ -20,15 +20,31 @@ function mapTechData() {
             "type":"language",
         },
         {
+            "name":"Java",
+            "icon":"images/tech/Java.svg",
+            "type":"language",
+        },
+        {
             "name": "C++",
             "icon": "images/tech/C++.svg",
             "type":"language",
         },
         {
-            "name":"Java",
-            "image":"images/tech/Java.png",
+            "name": "JavaScript",
+            "icon":"images/tech/js.svg",
             "type":"language",
         },
+        {
+            "name": "HTML",
+            "icon":"images/tech/html.svg",
+            "type":"language",
+        },
+        {
+            "name": "CSS",
+            "icon":"images/tech/css.svg",
+            "type":"language",
+        },
+
     ];
 
     for (var i = 0; i < tech.length; i++) {

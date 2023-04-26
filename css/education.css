@@ -47,6 +47,7 @@
     .edu-card {
         flex-direction: column;
         align-items: center;
+        padding-left: 10%;
     }
 
     .edu-meta {

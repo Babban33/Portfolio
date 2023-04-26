@@ -5,25 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
 function mapProjectsData() {
     let projects = [
         {
-            "title": "The Holy Qur'an",
-            "image": "images/projects/quran.png",
-            "type": "Open Source",
-            "labels": [
-                {
-                    "title": "Play",
-                    "link": "https://play.google.com/store/apps/details?id=com.hmz.al_quran"
-                },
-                {
-                    "title": "Web",
-                    "link": "https://mhmzdev.github.io/quran/"
-                },
-                {
-                    "title": "GitHub",
-                    "link": "https://github.com/mhmzdev/the-holy-quran-app"
-                }
-            ]
-        },
-        {
             "title": "Devfolio",
             "image": "images/projects/devfolio.png",
             "type": "Open Source",

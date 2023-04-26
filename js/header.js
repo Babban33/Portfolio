@@ -84,13 +84,14 @@ function mapSocialLinksData() {
 function mapStatsData() {
     let stats = [
         {
-            "value": "3",
+            "value": "2",
             "text-1": "Years",
             "text-2": "Experience"
         },
         {
             "value": "35+",
-            "text-1": "Projects Completed",
+            "text-1": "Projects",
+            "text-2":" Completed",
         },
     ];
 

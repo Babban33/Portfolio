@@ -169,6 +169,21 @@ function mapTechData() {
             "icon":"images/tech/visual-studio.svg",
             "type":"tp",
         },
+        {
+            "name": "MySQL",
+            "icon":"images/tech/mysql.svg",
+            "type":"database",
+        },
+        {
+            "name": "Postgres",
+            "icon":"images/tech/postgresql.svg",
+            "type":"database",
+        },
+        {
+            "name": "MongoDB",
+            "icon":"images/tech/mongodb.svg",
+            "type":"database",
+        },
     ];
     for (var i = 0; i < tech.length; i++) {
         // div

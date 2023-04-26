@@ -1,0 +1,72 @@
+.edu-div {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edu-card {
+    color: white;
+    margin-top: 5em;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 5%;
+    background-color: var(--bg-dark);
+    width: 70%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 13px 10px;
+}
+
+.edu-meta {
+    background-color: transparent;
+    flex-basis: 60%;
+    padding-right: 2%;
+}
+
+.edu-image {
+    flex-basis: 20%;
+    width: 35%;
+    height: auto;
+    border-radius: 8px;
+    background-color: var(--bg-dark);
+}
+
+.edu-degree {
+    color: var(--primary-green);
+}
+
+.edu-session {
+    color: var(--text-light);
+}
+
+@media screen and (max-width: 768px) {
+    .edu-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .edu-meta {
+        flex-basis: auto;
+        padding-right: 0;
+        margin-bottom: 2%;
+    }
+
+    .edu-image {
+        flex-basis: auto;
+        width: 100px;
+        margin-bottom: 2%;
+    }
+}
+
+@keyframes shadow-revolve {
+    from {
+      box-shadow: 0 0 0 var(--primary-blue-green);
+    }
+    to {
+      box-shadow: 0 0 50px var(--primary-blue), 0 0 100px var(--secondary-green);
+    }
+}

@@ -115,12 +115,61 @@ function mapTechData() {
             "type":"libs",
         },
         {
+            "name": "Selenium",
+            "icon":"images/tech/selenium.svg",
+            "type":"libs",
+        },
+        {
             "name": "Azure",
             "icon":"images/tech/azure.svg",
             "type":"tp",
         },
+        {
+            "name": "Docker",
+            "icon":"images/tech/docker.svg",
+            "type":"tp",
+        },
+        {
+            "name": "Firebase",
+            "icon":"images/tech/firebase.svg",
+            "type":"tp",
+        },
+        {
+            "name": "AppWrite",
+            "icon":"images/tech/appwrite.svg",
+            "type":"tp",
+        },
+        {
+            "name": "Github",
+            "icon":"images/tech/github.svg",
+            "type":"tp",
+        },
+        {
+            "name": "Kubernetes",
+            "icon":"images/tech/kubernetes.svg",
+            "type":"tp",
+        },
+        {
+            "name": "Github Actions",
+            "icon":"images/tech/github-actions.svg",
+            "type":"tp",
+        },
+        {
+            "name": "Git",
+            "icon":"images/tech/git.svg",
+            "type":"tp",
+        },
+        {
+            "name": "Google colab",
+            "icon":"images/tech/colab.svg",
+            "type":"tp",
+        },
+        {
+            "name": "Visual Studio Prof.",
+            "icon":"images/tech/visual-studio.svg",
+            "type":"tp",
+        },
     ];
-
     for (var i = 0; i < tech.length; i++) {
         // div
         var techDiv = document.createElement("div");

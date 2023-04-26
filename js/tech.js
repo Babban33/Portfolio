@@ -44,7 +44,81 @@ function mapTechData() {
             "icon":"images/tech/css.svg",
             "type":"language",
         },
-
+        {
+            "name": "Flutter",
+            "icon":"images/tech/flutter.svg",
+            "type":"framework",
+        },
+        {
+            "name": "React",
+            "icon":"images/tech/react.svg",
+            "type":"framework",
+        },
+        {
+            "name": "Flask",
+            "icon":"images/tech/flask.svg",
+            "type":"framework",
+        },
+        {
+            "name": "Django",
+            "icon":"images/tech/django.svg",
+            "type":"framework",
+        },
+        {
+            "name": "Tensorflow",
+            "icon":"images/tech/tensorflow.svg",
+            "type":"libs",
+        },
+        {
+            "name": "Keras",
+            "icon":"images/tech/keras.svg",
+            "type":"libs",
+        },
+        {
+            "name": "Scikit",
+            "icon":"images/tech/Scikit.svg",
+            "type":"libs",
+        },
+        {
+            "name": "Pytorch",
+            "icon":"images/tech/pytorch.svg",
+            "type":"libs",
+        },
+        {
+            "name": "OpenCV",
+            "icon":"images/tech/opencv.svg",
+            "type":"libs",
+        },
+        {
+            "name": "OpenAiGym",
+            "icon":"images/tech/openaigym.svg",
+            "type":"libs",
+        },
+        {
+            "name": "Numpy",
+            "icon":"images/tech/numpy.svg",
+            "type":"libs",
+        },
+        {
+            "name": "Pandas",
+            "icon":"images/tech/pandas.svg",
+            "type":"libs",
+        },
+        {
+            "name": "Matplotlib",
+            "icon":"images/tech/matplotlib.svg",
+            "type":"libs",
+        },
+        {
+            "name": "Bootstrap",
+            "icon":"images/tech/bootstrap.svg",
+            "type":"libs",
+        },
+        {
+            "name": "Azure",
+            "icon":"images/tech/azure.svg",
+            "type":"tp",
+        },
     ];
 
     for (var i = 0; i < tech.length; i++) {
